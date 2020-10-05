@@ -11,7 +11,7 @@ import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
 
-]})
+})
 
 const auth = firebase.auth();
 const firestore = firebase.firestore();
@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>チャット</h1>
+        <h1>Reactチャット</h1>
         <SignOut />
       </header>
 
